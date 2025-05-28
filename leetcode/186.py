@@ -18,8 +18,9 @@ class Solution:
 
         return ' '.join(reversed)
 
-s = Solution()
-assert s.reverseWords("the sky is blue") == "blue is sky the", f'{s.reverseWords("the sky is blue")}'
+if __name__ == '__main__':
+    s = Solution()
+    assert s.reverseWords("the sky is blue") == "blue is sky the", f'{s.reverseWords("the sky is blue")}'
 
 """
     На самом деле, в python очень простое решение с помощью reverse() 

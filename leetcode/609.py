@@ -23,10 +23,11 @@ class Solution:
                     return True
         return False
 
-s = Solution()
-assert s.canPlaceFlowers([1,0,0,0,0,0,1], 2) == True
-assert s.canPlaceFlowers([1,0,0,0,1], 1) == True
-assert s.canPlaceFlowers([0], 1) == False
-assert s.canPlaceFlowers([1, 0, 1], 0) == True
-assert s.canPlaceFlowers([0, 0, 1], 1) == True
-assert s.canPlaceFlowers([1, 0, 0], 1) == True
+if __name__ == '__main__':
+    s = Solution()
+    assert s.canPlaceFlowers([1,0,0,0,0,0,1], 2) == True
+    assert s.canPlaceFlowers([1,0,0,0,1], 1) == True
+    assert s.canPlaceFlowers([0], 1) == False
+    assert s.canPlaceFlowers([1, 0, 1], 0) == True
+    assert s.canPlaceFlowers([0, 0, 1], 1) == True
+    assert s.canPlaceFlowers([1, 0, 0], 1) == True
